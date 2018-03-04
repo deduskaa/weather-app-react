@@ -1,0 +1,22 @@
+.FavoriteCard {
+  margin: 2rem 0;
+  
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.FavoriteCard h3 {
+  margin: auto;
+}
+
+.FavoriteCard-button-container {
+  margin: 1rem 0 0;
+
+  display: flex;
+  justify-content: center;
+}
+
+.FavoriteCard-btn {
+  animation: fadeInUp .4s;
+}
