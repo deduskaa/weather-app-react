@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../styles/SearchBar.css";
+import "../css/SearchBar.css";
 import { Input, Message, Form } from "semantic-ui-react";
 
 class SearchBar extends Component {

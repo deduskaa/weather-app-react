@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../styles/WeatherCard.css";
+import "../css/WeatherCard.css";
 import "../css/weather-icons.min.css";
 import { Button } from "semantic-ui-react";
 

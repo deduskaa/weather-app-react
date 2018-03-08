@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./styles/App.css";
+import "./css/App.css";
 
 import SearchBar from "./components/SearchBar";
 import WeatherCard from "./components/WeatherCard";

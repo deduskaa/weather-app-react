@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../styles/FavoriteCard.css";
+import "../css/FavoriteCard.css";
 import { Button } from "semantic-ui-react";
 
 class FavoriteCard extends Component {
