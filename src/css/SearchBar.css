@@ -12,3 +12,9 @@
   margin: 0 auto 2rem;
   animation: fadeInDown 1s;
 }
+
+@media screen and (max-width: 600px) {
+  .SearchBar-input {
+    width: 20rem;
+    }
+  }

@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import "../css/FavoriteCard.css";
+import "../css/Favorites.css";
 import { Button } from "semantic-ui-react";
 
-class FavoriteCard extends Component {
+class Favorites extends Component {
   constructor(props) {
     super(props);
 
@@ -15,13 +15,13 @@ class FavoriteCard extends Component {
 
   render() {
     let cityElements = this.props.savedCities.map((city) => {
-      return <Button className="FavoriteCard-btn" size="tiny" value={city} key={`${city}-button`} onClick={this.getWeather} content={city} />;
+      return <Button className="Favorites-btn" size="tiny" value={city} key={`${city}-button`} onClick={this.getWeather} content={city} />;
     });
 
     return (
-      <div className="FavoriteCard">
-        <h3>My favorite cities</h3>
-        <div className="FavoriteCard-button-container">
+      <div className="Favorites">
+        <h3 className="Favorites-title">My favorite cities</h3>
+        <div className="Favorites-button-container">
           {cityElements}
         </div>
       </div>
@@ -29,4 +29,4 @@ class FavoriteCard extends Component {
   }
 }
 
-export default FavoriteCard;
+export default Favorites;

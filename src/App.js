@@ -3,7 +3,7 @@ import "./css/App.css";
 
 import SearchBar from "./components/SearchBar";
 import WeatherCard from "./components/WeatherCard";
-import FavoriteCard from "./components/FavoriteCard";
+import Favorites from "./components/Favorites";
 import API_KEY from "./config.js";
 
 class App extends Component {
@@ -99,7 +99,7 @@ class App extends Component {
           />
         )}
         {hasSavedCities && (
-          <FavoriteCard
+          <Favorites
             savedCities={savedCities}
             callBackFromParent={this.callWeatherData}
           />

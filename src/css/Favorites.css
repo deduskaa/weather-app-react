@@ -1,4 +1,4 @@
-.FavoriteCard {
+.Favorites {
   margin: 2rem 0;
   
   display: flex;
@@ -6,17 +6,17 @@
   justify-content: center;
 }
 
-.FavoriteCard h3 {
+.Favorites-title {
   margin: auto;
 }
 
-.FavoriteCard-button-container {
+.Favorites-button-container {
   margin: 1rem 0 0;
 
   display: flex;
   justify-content: center;
 }
 
-.FavoriteCard-btn {
+.Favorites-btn {
   animation: fadeInUp .4s;
 }
